@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'testAppazureARC'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5a0b7ff395f24dfc94c0b0520d6f0fda }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fdc8edcedfc54b4c9ef61909579dee9a }}
         package: .
